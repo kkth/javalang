@@ -16,4 +16,8 @@ public class ThreadLoaclClass {
 
     public void setValAonther(int i) {
     }
+    public void setValnther(int i) {
+    }
+    public void setValntherss(int i) {
+    }
 }

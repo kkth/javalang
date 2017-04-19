@@ -8,7 +8,7 @@ public class FormatDate {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SimpleDateFormat format1 = new SimpleDateFormat("yyyy-MM-dd");
+		SimpleDateFormat format1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS Z");
 		SimpleDateFormat format2 = new SimpleDateFormat("yyyyMM");
 		
 		long curTime = System.currentTimeMillis();

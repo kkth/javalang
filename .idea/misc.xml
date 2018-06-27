@@ -22,6 +22,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/PojoExecutable/pom.xml" />
+        <option value="$PROJECT_DIR$/Zk345Client/pom.xml" />
+        <option value="$PROJECT_DIR$/RedisClient/pom.xml" />
       </list>
     </option>
   </component>

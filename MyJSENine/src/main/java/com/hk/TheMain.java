@@ -9,13 +9,12 @@ public class TheMain {
 
     public static void main() {
         TheMain exec = new TheMain();
-        exec.cal();
+        //exec.cal();
     }
 
-    void int cal(List<Integer> source, int threshold) {
+    int cal(List<Integer> source, int threshold) {
         int ret = 0;
-        Integer val = 0;
-        for(source:val) {
+        for(Integer val:source) {
             if(val >threshold) {
               ret++;
             }

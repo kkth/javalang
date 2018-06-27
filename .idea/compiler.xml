@@ -6,16 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Annot" />
         <module name="httpclient" />
         <module name="MyFuture" />
         <module name="MyJSENine" />
+        <module name="PojoExecutable" />
+        <module name="TestJavaModule" />
+        <module name="Zk345Client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="Annot" target="1.8" />
       <module name="httpclient" target="1.8" />
       <module name="javalang" target="1.8" />
       <module name="MyFuture" target="1.8" />
       <module name="MyJSENine" target="1.8" />
+      <module name="PojoExecutable" target="1.8" />
+      <module name="TestJavaModule" target="1.8" />
+      <module name="Zk345Client" target="1.8" />
+      <module name="zk346clt" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

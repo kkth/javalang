@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Annot/Annot.iml" filepath="$PROJECT_DIR$/Annot/Annot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Misc/Misc.iml" filepath="$PROJECT_DIR$/Misc/Misc.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyFuture/MyFuture.iml" filepath="$PROJECT_DIR$/MyFuture/MyFuture.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyJSENine/MyJSENine.iml" filepath="$PROJECT_DIR$/MyJSENine/MyJSENine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PojoExecutable/PojoExecutable.iml" filepath="$PROJECT_DIR$/PojoExecutable/PojoExecutable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RedisClient/RedisClient.iml" filepath="$PROJECT_DIR$/RedisClient/RedisClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestJavaModule/TestJavaModule.iml" filepath="$PROJECT_DIR$/TestJavaModule/TestJavaModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zk345Client/Zk345Client.iml" filepath="$PROJECT_DIR$/Zk345Client/Zk345Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpclient/httpclient.iml" filepath="$PROJECT_DIR$/httpclient/httpclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/javalang.iml" filepath="$PROJECT_DIR$/javalang.iml" />
     </modules>

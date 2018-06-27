@@ -18,8 +18,8 @@ import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooKeeper;
 
-public class Executor
-        implements Watcher, Runnable, DataMonitor.DataMonitorListener
+public class ZKCliExecutor
+               implements Runnable,DataMonitor.DataMonitorListener,Watcher
 {
     String znode;
 
@@ -33,13 +33,14 @@ public class Executor
 
     Process child;
 
-    public Executor(String hostPort, String znode, String filename,
+    public ZKCliExecutor(String hostPort, String znode, String filename,
                     String exec[]) throws KeeperException, IOException {
         this.filename = filename;
         this.exec = exec;
         zk = new ZooKeeper(hostPort, 3000, this);
         dm = new DataMonitor(zk, znode, null, this);
     }
+
 
     public static void main(String[] args) {
         if (args.length < 4) {
@@ -53,7 +54,7 @@ public class Executor
         String exec[] = new String[args.length - 3];
         System.arraycopy(args, 3, exec, 0, exec.length);
         try {
-            new Executor(hostPort, znode, filename, exec).run();
+            new ZKCliExecutor(hostPort, znode, filename, exec).run();
         } catch (Exception e) {
             e.printStackTrace();
         }

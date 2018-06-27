@@ -2,6 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Annot" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/Misc" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/MyFuture" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/PojoExecutable" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/RedisClient" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/TestJavaModule" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/Zk345Client" vcs="svn" />
   </component>
 </project>

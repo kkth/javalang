@@ -8,10 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Annot" />
         <module name="httpclient" />
+        <module name="lang" />
+        <module name="Misc" />
         <module name="MyFuture" />
         <module name="MyJSENine" />
         <module name="PojoExecutable" />
+        <module name="RedisClient" />
         <module name="TestJavaModule" />
+        <module name="TusClient" />
         <module name="Zk345Client" />
       </profile>
     </annotationProcessing>
@@ -19,10 +23,14 @@
       <module name="Annot" target="1.8" />
       <module name="httpclient" target="1.8" />
       <module name="javalang" target="1.8" />
+      <module name="lang" target="1.8" />
+      <module name="Misc" target="1.8" />
       <module name="MyFuture" target="1.8" />
       <module name="MyJSENine" target="1.8" />
       <module name="PojoExecutable" target="1.8" />
+      <module name="RedisClient" target="1.5" />
       <module name="TestJavaModule" target="1.8" />
+      <module name="TusClient" target="1.8" />
       <module name="Zk345Client" target="1.8" />
       <module name="zk346clt" target="1.8" />
     </bytecodeTargetLevel>

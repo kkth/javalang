@@ -9,9 +9,12 @@
       <module fileurl="file://$PROJECT_DIR$/PojoExecutable/PojoExecutable.iml" filepath="$PROJECT_DIR$/PojoExecutable/PojoExecutable.iml" />
       <module fileurl="file://$PROJECT_DIR$/RedisClient/RedisClient.iml" filepath="$PROJECT_DIR$/RedisClient/RedisClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestJavaModule/TestJavaModule.iml" filepath="$PROJECT_DIR$/TestJavaModule/TestJavaModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TusClient/TusClient.iml" filepath="$PROJECT_DIR$/TusClient/TusClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zk345Client/Zk345Client.iml" filepath="$PROJECT_DIR$/Zk345Client/Zk345Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpclient/httpclient.iml" filepath="$PROJECT_DIR$/httpclient/httpclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/javalang.iml" filepath="$PROJECT_DIR$/javalang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javalang.iml" filepath="$PROJECT_DIR$/javalang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lang/lang.iml" filepath="$PROJECT_DIR$/lang/lang.iml" />
     </modules>
   </component>
 </project>

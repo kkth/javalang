@@ -5,22 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.hk</groupId>
-    <artifactId>javalang</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>lang</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>httpclient</module>
-        <module>lang</module>
-        <module>MyJSENine</module>
-        <module>MyFuture</module>
-        <module>Zk345Client</module>
-        <module>PojoExecutable</module>
-        <module>TestJavaModule</module>
-        <module>Annot</module>
-        <module>Misc</module>
-        <module>TusClient</module>
-        <module>RedisClient</module>
-    </modules>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+    </dependencies>
 
     <build>
     <plugins>
